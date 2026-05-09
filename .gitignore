@@ -1,0 +1,83 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Audio / Video Files
+*.mp3
+*.wav
+*.mp4
+*.mkv
+*.avi
+
+# Generated Transcripts / Outputs
+outputs/
+transcripts/
+summaries/
+reports/
+
+# ChromaDB Vector Store
+chroma_db/
+chroma/
+
+# Temporary Files
+temp/
+tmp/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# PDF/TXT Exports
+exports/
+
+# SQLite
+*.sqlite3
+*.db
+
+# Model Cache
+models/
+cache/
+
+# HuggingFace Cache
+.huggingface/
+
+# Mistral / Whisper Temporary
+whisper_cache/
+
+# Python Testing
+.pytest_cache/
+
+# Coverage Reports
+.coverage
+htmlcov/
